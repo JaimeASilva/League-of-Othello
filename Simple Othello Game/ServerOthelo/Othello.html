@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="PT">
+	<head>
+	    <link rel="stylesheet" href="Othello.css">
+	    <meta charset=UTF-8>
+	    <title>League of Othello</title>
+	</head>
+	<body id="back_color">
+
+		<div class ="LateralMenu">
+				<img src="LogoOthello.png" alt="logo"/>
+				<button onclick="Instruction()">Instructions</button>
+				<button onclick="Classification()">Classification</button>
+				<button onclick="Home()">Home</button>
+		</div>
+
+
+		<div class="ret">
+			<p class="login">Sign in</p>
+
+			<input type = "text" placeholder = "Enter Username" value = "nome" name = "uname" required>
+
+			<input type = "password" placeholder = "Enter Password" name = "psw" required>
+
+			<button class="button" onclick="Menu1()">Login</button>
+			<span class="psw">Forgot <a href="#">password?</a></span> <!-- é por uma parte do texto linkada-->
+		</div>
+
+		<div class="Menu">
+			<button onclick="Chose()">PLAYER VS PC</button>
+			<button onclick="play2()">PLAYER VS PLAYER</button>
+		</div>
+
+		<div class="Chose1">
+
+			<p class="side">Choose you side!</p>
+			<input type="radio" id="Black" name="color" checked="checked"/>
+	 		<label for="Black"><span></span>Black</label>
+
+	 		<input type="radio" id="White" name="color"/>
+	 		<label for="White"><span></span>White</label><br>
+
+			<p class="side">Choose the difficulty!</p>
+			<input type="radio" id="easy" name="level"/>
+			<label for="easy"><span></span>Easy</label>
+
+			<input type="radio" id="medium" name="level" checked="checked"/>
+			<label for="medium"><span></span>Medium</label>
+			<input type="radio" id="hard" name="level"/>
+			<label for="hard"><span></span>Hard</label><br>
+
+			<button class="button tipo2" onclick="play1()">Play!</button>
+
+		</div>
+
+	  	<div class="Instruction">
+		  	<p class="inst2">Instructions:</p>
+				<p class="inst2">-The black pieces are always first</p>
+				<p class="inst2">-Black must place a piece on the board and so that there exists at least one straight (horizontal, vertical, or diagonal) occupied line between the new piece and another black piece, with one or more contiguous light pieces between them.</p>
+				<p class="inst2">-The plays can only be made if you can change at least 1 oponnent piece into yours</p>
+				<p class="inst2">-The game ends when neither player has possible plays or when there are no spaces left for pieces</p>
+				<button  onclick="CloseInstr()">Close</button>
+			</div>
+			<div class="Classification">
+				<br><p class="isnt2">João: 50 points</p>
+				<p class="isnt2">Diogo: 44 points</p>
+				<p class="isnt2">Jaime: 40 points</p>
+				<button  onclick="CloseClas()">Close</button>
+			</div>
+			<div class="msg">
+
+			</div>
+			<button id="alertbutton" onclick="Close()">Close Alert!</button>
+
+
+			<button class="surrender" onclick="surrender(player)">Surrender</button>
+			<button class="logout" onclick="Logout()">LOG OUT</button>
+
+				<script src = "ServerOthello.js"></script>
+	</body>
+
+</html>
