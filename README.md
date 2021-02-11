@@ -5,4 +5,4 @@ Othello or Riversi was created in the XIX century and later became popular in En
 
 # A quick preview of the game
 
-![Alt Text](https://github.com/JaimeASilva/League-of-Othello/blob/main/Simple%20Othello%20Game/OthelloGame.gif)
+![Alt Text](https://github.com/JaimeASilva/League-of-Othello/blob/main/OthelloGame.gif)
