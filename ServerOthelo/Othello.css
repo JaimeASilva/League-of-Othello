@@ -1,0 +1,434 @@
+#board_back{
+  height: 600px;
+  width: 600px;
+  background-color: black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+
+}
+
+#piece_back{
+  height: 600px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+
+}
+
+#help_back{
+  height: 600px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+
+}
+
+#green_square{
+	height: 75px;
+	width: 75px;
+	background-color: green;
+	border-style: solid;
+	border-color: black;
+	z-index: 1;
+	position: absolute;
+	box-sizing: border-box;
+}
+
+#piece{
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	z-index: 2;
+	position: absolute;
+}
+
+#move_help{
+  border-radius: 50%;
+  height: 58px;
+  width: 58px;
+  z-index: 2;
+  position: absolute;
+}
+
+
+#score{
+  background-color: #008CBA;
+	width: 600px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 700px;
+	text-align: center;
+	color: white;
+  padding-top: 8px;
+}
+
+#currentPlay{
+  background-color: #008CBA;
+
+	width: 600px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	color: white;
+}
+
+#passButton{
+display: block;
+}
+h1 {
+    color: black;
+    display: inline-flex;
+    margin-top: 20px;
+}
+#log {
+  display: flex;
+
+  color: black;
+
+  margin-top: 35px;
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: fantasy;
+  font-weight: bold;
+
+}
+#back_color {
+  background-color: LightSkyBLue;
+}
+
+/*span.psw {
+  padding-top: 15px;
+}*/
+
+
+input[type=text], [type=password] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 33px;
+  width: 300px;
+  margin-top: 10px;
+}
+/*[type=password] {
+  display: block;
+  height: 33px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+.ret {
+  background-color: MediumAquaMarine;
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+.button {
+
+  background-color: Aquamarine;
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.6;
+  font-size: 16px;
+  /*transition: 0.3s;*/
+  width: 350px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 8px;
+}
+.tipo2 {
+  padding: 5px 12px;
+}
+.button:hover {
+  opacity: 1;
+}
+
+img {
+    display: inline-flex;
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 130px;
+}
+p.VsPc {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  left: 0;
+  right: 0;
+  height: 75px;
+  width: 200px;
+  background-color: blue;
+  z-index: 1; /* o z-index é meter tipo background*/
+}
+p.MenuLetra {
+  color: white;
+
+}
+p.login {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+span.psw {
+  color: black;
+  float: left;
+  margin-left: 3px;
+  padding-top:16px;
+}
+
+.Menu1 {
+  display: none;
+  background-color: black;
+  width: 200px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+
+  /*visibility: hidden;*/
+
+}
+.PC  {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-top: 5px;
+  /*transition-duration: 0.4s;*/
+  cursor: pointer;
+}
+.Player  {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 32px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  /*transition-duration: 0.4s;*/
+  cursor: pointer;
+}
+.tipo2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+  padding: 32px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  /*transition-duration: 0.4s;*/
+  cursor: pointer;
+}
+.Menu button {
+  background-color: #008CBA;
+  border: 1px solid white;
+  color: white;
+  width: 200px;
+  height: 100px;
+  cursor: pointer;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+}
+
+.Menu button:hover {
+  background-color: DodgerBlue;
+}
+.Chose1 {
+
+  display:none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+
+}
+
+
+
+p.side {
+  color: black;
+}
+.LateralMenu button {
+  visibility: visible;
+  background-color: #008CBA;
+  border: 1px solid white;
+  color: white;
+  width: 150px;
+  height:75px;
+  cursor: pointer;
+  display: none;
+
+
+}
+.LateralMenu {
+  display: flex;
+}
+.Instruction {
+  background-color: #008CBA;
+  display: none;
+  margin-right: auto;
+  margin-left: auto;
+  border:white;
+  width:600px;
+  height: 330px;
+}
+p.inst2 {
+  color: white;
+}
+.Instruction button {
+  background-color: #e7e7e7;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  margin-left:auto;
+  margin-right: auto;
+
+}
+.Classification {
+  background-color: #008CBA;
+  color: white;
+  display:none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height:200px;
+  border:white;
+  margin-top: 75px;
+}
+.Classification button {
+  background-color: #e7e7e7;
+  color: black;
+  padding: 12px 26px;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  margin-left:auto;
+  margin-right: auto;
+}
+.logout {
+  background-color: white;
+  color:red;
+  border: 2px solid red;
+  cursor: pointer;
+  padding: 8px 18px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  display:none;
+}
+.msg{
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border: solid red;
+  color: red;
+  text-align: center;
+  display:block;
+  position: absolute;
+  z-index: 3;
+  left: 200px;
+  top: 250px;
+  display: none;
+
+}
+#alertbutton{
+  border: solid orange;
+  background-color: white;
+  color: orange;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  margin-left:auto;
+  margin-right: auto;
+  visibility: hidden;
+  padding: 10px 20px;
+}
+.surrender {
+  text-align: center;
+  display: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: red;
+  color: white;
+  padding: 15px 30px;
+
+
+}
+
+/*div {
+    display: block;
+    margin-left: ;
+    margin-right: auto;
+  }
+  .container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
